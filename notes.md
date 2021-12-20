@@ -13,9 +13,14 @@ Section 1: What is a DApplication non technical Fundamentals  & Basics
 
 Section 2: Complete DApp Development Environment Set Up for NFT Marketplace
 -> NFT Marketplace Overview Reference
-Main Marketplace -> The
+Main Marketplace, The Minting Form, My NFT, and Dashboard pages/components
 
 -> Download DApp Project Dependencies
+In this project it will use NextJS and also any dependencies that needed such as ethers(local evm, for development purpose), hardhat (development environment), chai(for unit testing our smart contract), openzeppelin/contracts(token library, we can follow the token standard from here), ipfs-http-client(is the decentralized way of hosting our URI, nft images file will store to this)
+```bash
+$ yarn add ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios
+```
+
 -> Complete NFT Project Structure Overview
 -> Hardhat & Infura Blockchain Configuration
 -> Settip Up MetaMask & Private Key Access
