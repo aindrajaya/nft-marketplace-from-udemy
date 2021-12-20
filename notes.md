@@ -20,6 +20,14 @@ In this project it will use NextJS and also any dependencies that needed such as
 ```bash
 $ yarn add ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers web3modal @openzeppelin/contracts ipfs-http-client axios
 ```
+We will use tailwind for this project to styling our nft-marketplace dapp.
+```bash
+$ yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
+```
+And don't forget to initialize the Tailwind configuration by using this script
+```bash
+$ npx tailwind init -p
+```
 
 -> Complete NFT Project Structure Overview
 -> Hardhat & Infura Blockchain Configuration
