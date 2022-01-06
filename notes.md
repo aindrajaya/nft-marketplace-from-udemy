@@ -28,6 +28,10 @@ And don't forget to initialize the Tailwind configuration by using this script
 ```bash
 $ npx tailwind init -p
 ```
+So for the Blockchain local Development we dont' forget to use Hardhat to nitialize our project and  create a basic smart contract for us instantly. In this script, you will see the CLI program that will guide you to create your smart contract.
+```bash
+$ npx hardhat
+```
 
 -> Complete NFT Project Structure Overview
 -> Hardhat & Infura Blockchain Configuration
