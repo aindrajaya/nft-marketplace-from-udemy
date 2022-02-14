@@ -45,3 +45,7 @@ typechain
 #Hardhat files
 cache
 artifacts
+
+# Lock Files
+yarn.lock
+package-lock.json
