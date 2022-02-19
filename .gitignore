@@ -34,7 +34,7 @@ yarn-error.log*
 .vercel
 yarn.lock
 
-pages/notes.md
+notes.md
 
 node_modules
 .env
