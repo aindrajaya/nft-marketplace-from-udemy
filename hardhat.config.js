@@ -1,3 +1,4 @@
+require("dotenv").config()
 require("@nomiclabs/hardhat-waffle");
 
 const projectId = 'ba558c3dc0354a4b8eac2c76348d90f7'
