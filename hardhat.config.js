@@ -12,11 +12,11 @@ module.exports = {
     },
     mumbai:{
       url:`https://polygon-mumbai.infura.io/v3/${projectId}`,
-      accounts:[]
+      accounts:[acc1]
     },
     mainnet:{
       url:`https://mainnet.infura.io/v3/${projectId}`,
-      accounts:[]
+      accounts:[acc1]
     }
   },
   solidity: {
